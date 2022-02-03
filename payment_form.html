@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+         <style>
+          h1 {text-align: center;}
+         </style>
+</head>
+<body>
+    <form action="">
+         <h1> 
+         <u style="color: rgb(7, 11, 252);"> 
+          A Basic Payment Form 
+         </u>
+         </h1>
+    <br>
+         <font color="red">*</font>
+         <b>
+         <i>
+          marked fields are necessary
+        </i>
+        </b> 
+    <!--contact info starts from here-->
+        <h2>
+        <u>
+         Contact Information:-
+        </u>
+        </h2>
+    <br> 
+        <font color="red">* </font>
+        <b>
+         Name:
+        </b> 
+        <input type="text" name="name" required>
+
+        <p>
+        <fieldset>
+        <legend>
+        <b>
+        <font color="red">* </font> 
+        Select Your Gender:
+        </b>
+        </legend>
+    <br>
+        Male   <input type="radio" name="gender" >
+        Female <input type="radio" name="gender" >
+        Other  <input type="radio" name="gender" required >
+        </fieldset>
+        </p>
+
+        <p>
+        <b>
+        <font color="red">* </font>
+        Address:
+        </b> 
+    <br>
+        <textarea name="Address" id="Address" cols="75" rows="4" required >
+        </textarea>
+        </p>
+
+        <p>
+        <b> 
+        <font color="red">* </font>
+        Email:
+        </b> &nbsp;&nbsp;&nbsp; 
+        <input type="email" name="email" id="email" required >
+        </p>
+
+        <p>
+        <b>
+        <font color="red">* </font>
+        Pincode:
+        </b>&nbsp; 
+        <input type="number" name="pincode" id="pincode" required >
+        </p>  
+    <br>
+    <hr>
+     <!--payment info starts from here-->
+        <h2> 
+        <u>
+        Payment Information:-
+        </u>
+        </h2>
+     <br>
+        <p>
+        <b> 
+        <font color="red">* </font>
+        Card Type:
+        </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select name="cards" id="cards" required >
+            <option value="">
+            --Select a Card Type--
+            </option>
+            <option value="visa">
+            VISA
+            </option>
+            <option value="rupay">
+            Rupay
+            </option>
+            <option value="mastercard">
+            MasterCard
+            </option>
+            </select>
+            </p>
+
+            <p>
+            <b>
+            <font color="red">* </font>
+            Card Number:
+            </b>  
+            <input type="number" required >
+            </p>
+
+            <p>
+            <b>
+            <font color="red">* </font>
+            Expiry:
+            </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="month" name="month" id="month" required >
+            </p>
+
+            <p>
+            <b>
+            <font color="red">* </font>
+            CVV:
+            </b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+            <input type="password" name="cvv" id="cvv" required >
+            </p>
+     <br>
+            <input type="submit" value="SUBMIT">
+    </form>
+</body>
+</html>
